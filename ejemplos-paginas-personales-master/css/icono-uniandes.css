@@ -1,0 +1,30 @@
+@font-face {
+    font-family: icomoon;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/icomoon.eot);
+    src:
+    url(../fonts/icomoon.eot#iefix) format("embedded-opentype"),
+    url(../fonts/icomoon.woff) format("woff"),
+    url(../fonts/icomoon.ttf) format("truetype"),
+    url(../fonts/icomoon.svg#icomoon) format("svg")
+}
+
+.icono.uniandes {
+    font-size: 22px;
+}
+
+.icono.uniandes:before {
+    position: relative;
+    top: 3px;
+    font-family: icomoon;
+    content:"\e61f";
+    font-style: normal;
+}
+
+.navbar {
+    border-radius: 0px;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+}

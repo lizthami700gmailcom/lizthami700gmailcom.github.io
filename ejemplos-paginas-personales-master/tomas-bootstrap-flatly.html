@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Páginas Personales</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <!--
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    -->
+    <!-- united -- flatly, paper -->
+    <!--    paper, spacelab, yeti, superhero, slate, simplex,
+            sandstone, readable, lumen, journal, darkly, cosmo,
+            cyborg, cerulean -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/icono-uniandes.css">
+    <link rel="stylesheet" href="css/tomas-bootstrap.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!-- Barra de navegación -->
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Personales</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Ejemplos <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="tomas-bootstrap.html">usando Bootstrap</a></li>
+                        <li class="divider"></li>
+                        <li><a href="tomas-bootstrap-united.html">usando United</a></li>
+                        <li><a href="tomas-bootstrap-paper.html">usando Paper</a></li>
+                        <li><a href="tomas-bootstrap-cosmo.html">usando Cosmo</a></li>
+                        <li><a href="#">usando Flatly</a></li>
+                        <li><a href="tomas-bootstrap-yeti.html">usando Yeti</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://sistemasacademico.uniandes.edu.co/~isis3710/">
+                    <i class="glyphicon glyphicon-education"></i> Curso</a>
+                </li>
+                <li><a href="http://www.uniandes.edu.co">
+                    <i class="icono uniandes"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Contenido -->
+<div class="container">
+
+    <div class="row">
+
+        <!-- Nombre -->
+        <div class="col-sm-4 col-md-3 col-lg-2">
+            <div class="row seccion-nombre">
+                <img src="images/tom-cruise.jpg" class="img-circle" style="width: 40%;"/>
+                <h3>Tomás Cruz</h3>
+                <p>Estudiante Ingeniería de Sistemas</p>
+                <hr/><br/>
+                <ul class="contact-list fa-ul">
+                    <li><i class="fa-li fa fa-home"></i>
+                        Universidad de los Andes<br>
+                        Facultad de Ingeniería<br>
+                        Bogotá, Colombia
+                    </li>
+                    <li><i class="fa-li fa fa-phone"></i>
+                        +571 3394949<br>
+                        (secretaria: 2860)
+                    </li>
+                    <li><i class="fa-li fa fa-fax"></i>
+                        +571 3324325
+                    </li>
+                </ul>
+                <hr/>
+                <ul class="contact-list fa-ul">
+                    <li><i class="fa-li fa fa-envelope-o"></i>
+                        <a href="mailto:tcruz@ejemplo.com">
+                            <i class="mail-icon-item"></i>
+                            tcruz@ejemplo.com
+                        </a>
+                    </li>
+                    <li><i class="fa-li fa fa-twitter"></i>
+                        <a href="https://twitter.com/tomas-cruz">
+                            @tomas-cruz
+                        </a>
+                    </li>
+                    <li><i class="fa-li fa fa-github"></i>
+                        <a href="https://github.com/tomascruz">
+                            tomascruz
+                        </a>
+                    </li>
+                    <li><i class="fa-li fa fa-graduation-cap"></i>
+                        <a href="http://scholar.google.com/">
+                            Google Scholar
+                        </a>
+                    </li>
+                    <li><i class="fa-li fa fa-linkedin-square"></i>
+                        <a href="#">
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li><i class="fa-li fa fa-file-text-o"></i>
+                        <a href="#">
+                            Descargar HV
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <!-- Datos -->
+        <div class="col-sm-8 col-md-9 col-lg-10" >
+
+            <!-- Tabs -->
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#info">Información</a></li>
+                <li><a data-toggle="tab" href="#publicaciones">Publicaciones</a></li>
+                <li><a data-toggle="tab" href="#proyectos">Proyectos</a></li>
+                <li><a data-toggle="tab" href="#cursos">Cursos</a></li>
+            </ul>
+
+            <!-- Contenido de los Tab -->
+            <div class="tab-content">
+
+                <!-- Información personal -->
+                <div id="info" class="tab-pane fade in active">
+                    <h3>Datos Personales</h3>
+                    <p>
+                        Soy estudiante de Ingeniería de Sistemas y Computación en la Universidad de los Andes.
+                        Igualmente soy parte de los capítulos de ACM y de la IEEE de la Universidad.
+                        Me gusta mucho el desarrollo de software, los video juegos y el desarrollo de animaciones por computador.
+                    </p>
+                    <p>
+                        Mis principales intereses son:
+                    </p>
+                    <ul>
+                        <li>Desarrollo de aplicaciones web usando Javascript y Node.js</li>
+                        <li>Desarrollo de video juegos usando Unity y WebGL</li>
+                        <li>Creación de imagenes y animaciones en 3D</li>
+                    </ul>
+                </div>
+
+                <!-- Publicaciones -->
+                <div id="publicaciones" class="tab-pane fade">
+                    <h3>Publicaciones</h3>
+                    <p><a href="#">Descargar archivo bibtex</a></p>
+                    <table class="table">
+                        <tr>
+                            <td>
+                                <span class="date"><big><strong>2015</strong></big><br>July</span>
+                            </td>
+                            <td class="publication">
+                                <span class="pubtitle">
+                                    <i class="fa fa-file-pdf-o"></i>
+					                <a href="#">Latency-Tolerant Software Distributed Shared Memory</a>
+                                </span><br>
+			                    <span class="authors">
+				                    Jacob Nelson, Brandon Holt, Brandon Myers, Preston Brigg, Luis Ceze, Simon Kahan, and Mark Oskin.
+			                    </span><br>
+                                <span class="venuetype"></span>
+                                <span class="venue">2015 USENIX Annual Technical Conference (USENIX ATC 15)</span><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="date">June</span>
+                            </td>
+                            <td class="publication">
+                                <span class="pubtitle">
+                                    <i class="fa fa-file-pdf-o"></i>
+					                <a href="#">Latency-Tolerant Software Distributed Shared Memory</a>
+                                </span><br>
+			                    <span class="authors">
+				                    Jacob Nelson, Brandon Holt, Brandon Myers, Preston Brigg, Luis Ceze, Simon Kahan, and Mark Oskin.
+			                    </span><br>
+                                <span class="venuetype"></span>
+                                <span class="venue">2015 USENIX Annual Technical Conference (USENIX ATC 15)</span><br>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <!-- Proyectos -->
+                <div id="proyectos" class="tab-pane fade">
+                    <h3>Proyectos</h3>
+                    <p>En la actualidad estoy vinculado a varios cursos y proyectos de investigación.</p>
+                    <hr/>
+                    <h3>Proyectos de Investigación</h3>
+                    <p>He estado colaborando con varios proyectos de investigación de los grupos TiCSW e Imagine</p>
+                    <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-chevron-circle-right"></i><a href="#">Mobile Games</a> – Frameworks para la creación de juegos para dispositivos móviles</li>
+                        <li><i class="fa-li fa fa-chevron-circle-right"></i><a href="#">Model-based Gaming</a> – Desarrollo de juegos basado en modelos</li>
+                    </ul>
+                    <h3>Código Fuente</h3>
+                    <p>El Código fuente de los proyectos pueden obtenerse de Github</p>
+                    <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-github"></i> <a href="#">Sitio web personal</a></li>
+                        <li><i class="fa-li fa fa-github"></i> <a href="#">AngryKids</a> – Juego para dispositivos móviles</li>
+                        <li><i class="fa-li fa fa-github"></i> <a href="#">3D-bench</a> – Comparaciones de rendimiento de librerías 3D</li>
+                    </ul>
+                </div>
+
+                <!-- Cursos -->
+                <div id="cursos" class="tab-pane fade">
+                    <h3>Cursos</h3>
+                    <p>Durante el semestre 2015-2 estoy participando de los siguientes cursos.</p>
+                    <ul class="fa-ul">
+                        <li><i class="fa-li fa fa-bookmark"></i><a href="#">DesaWeb</a> - Desarrollo de Aplicaciones Web</li>
+                        <li><i class="fa-li fa fa-bookmark"></i><a href="#">Quantum</a> - Computación Cuantíca 1</li>
+                    </ul>
+                    <hr/>
+                    <h3>Horario</h3>
+                    <table class="table table-bordered table-hover schedule">
+                        <tr>
+                            <th></th>
+                            <th>Lun</th>
+                            <th>Mar</th>
+                            <th>Mie</th>
+                            <th>Jue</th>
+                            <th>Vie</th>
+                            <th>Sab</th>
+                        </tr>
+                        <tr>
+                            <td>7:00 am</td>
+                            <td></td>
+                            <td rowspan="3" class="schedule-class">DesaWeb</td>
+                            <td></td>
+                            <td></td>
+                            <td rowspan="3" class="schedule-class">DesaWeb</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>7:30 am</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>8:00 am</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>8:30 am</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>9:00 am</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>9:30 am</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10:00 am</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10:30 am</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- pié de página -->
+<footer class="footer">
+    <div class="container">
+        <p class="text-muted"><i class="fa fa-copyright"></i> 2015 Tomás Cruz.</p>
+    </div>
+</footer>
+
+</body>
+</html>
